@@ -4,7 +4,7 @@ def rps():
     comp = random.choice(['r','p','s'])
     print("computer choice:"+comp)
     if user == comp :
-        return "Its a tie!"
+        return "Its a tie"
     if win(user,comp):
          return "You won!!!!!"
  
